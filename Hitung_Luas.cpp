@@ -18,3 +18,14 @@ int main() {  //mulai
     //langkah 5
     cout << "Haasilnya= " << luas;   
 }  //selesai
+
+int main() {
+    int r;
+    double luas;
+    cout << "Masukkan jari-jari lingkaran: ";
+    cin >> r;
+    
+    luas = 3.14 * r * r;
+    cout << "Luas lingkaran adalah: " << luas;
+
+}
